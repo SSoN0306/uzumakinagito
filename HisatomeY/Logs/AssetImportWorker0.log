@@ -1,161 +1,156 @@
-Unity Editor version:    2020.3.25f1 (9b9180224418)
-Branch:                  2020.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.0.1 (Build 21A559)
-Darwin version:          21.1.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        32768 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ja' Physical Memory: 16082 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+C:\Users\m_tak\Desktop\アプリ\Unity\2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/junnaruto/Desktop/Unity/uzumakinagito/HisatomeY
+C:/Users/m_tak/Desktop/アプリ/Unity/uzumakinagito/HisatomeY
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57914
-Successfully changed project path to: /Users/junnaruto/Desktop/Unity/uzumakinagito/HisatomeY
-/Users/junnaruto/Desktop/Unity/uzumakinagito/HisatomeY
+50817
+Successfully changed project path to: C:/Users/m_tak/Desktop/アプリ/Unity/uzumakinagito/HisatomeY
+C:/Users/m_tak/Desktop/アプリ/Unity/uzumakinagito/HisatomeY
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path /Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/junnaruto/Desktop/Unity/uzumakinagito/HisatomeY/Assets
+[Subsystems] Discovering subsystems at path C:/Users/m_tak/Desktop/アプリ/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/m_tak/Desktop/アプリ/Unity/uzumakinagito/HisatomeY/Assets
 GfxDevice: creating device client; threaded=0
-2022-01-08 23:49:33.270 Unity[83443:2266024] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2022-01-08 23:49:33.270 Unity[83443:2266024] Metal devices available: 2
-2022-01-08 23:49:33.270 Unity[83443:2266024] 0: AMD Radeon Pro 5300M (high power)
-2022-01-08 23:49:33.270 Unity[83443:2266024] 1: Intel(R) UHD Graphics 630 (low power)
-2022-01-08 23:49:33.271 Unity[83443:2266024] Using device AMD Radeon Pro 5300M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5300M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     8041 MB
+    Driver:   30.0.100.9955
 Initialize mono
-Mono path[0] = '/Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56443
+Mono path[0] = 'C:/Users/m_tak/Desktop/アプリ/Unity/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/m_tak/Desktop/アプリ/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/m_tak/Desktop/アプリ/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000788 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.96 ms, found 2 plugins.
+Register platform support module: C:/Users/m_tak/Desktop/アプリ/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002296 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
+- Completed reload, in  1.201 seconds
 Domain Reload Profiling:
-	ReloadAssembly (945ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (388ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002382 seconds.
+Registered in 0.008069 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.759 seconds
+- Completed reload, in  2.016 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1760ms)
-		BeginReloadAssembly (243ms)
+	ReloadAssembly (2018ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1417ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1654ms)
+			LoadAssemblies (154ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (471ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (587ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000230 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000346 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Users/junnaruto/Desktop/Unity/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Initializing Unity extensions:
-2022-01-08 23:49:36.940 Unity[83443:2266024] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000000cb4f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-01-08 23:49:36.947 Unity[83443:2266024] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000000fba30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.7 MB.
-System memory in use after: 191.9 MB.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
 
-Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 1972.
-Total: 5.172333 ms (FindLiveObjects: 0.245506 ms CreateObjectMapping: 0.084689 ms MarkObjects: 4.004166 ms  DeleteObjects: 0.836327 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 2.940000 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.062800 ms MarkObjects: 2.620300 ms  DeleteObjects: 0.077600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Folder
-  artifactKey: Guid(d691a11cf7c6a465e9066f4880b56712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(d691a11cf7c6a465e9066f4880b56712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5acbcfb028bbef7116b0df09490d0d') in 0.008562 seconds 
-  Import took 0.011458 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.012769 seconds 
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Newfolder.unity
+  artifactKey: Guid(80b332f8736d341e6bdf666153cf7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newfolder.unity using Guid(80b332f8736d341e6bdf666153cf7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ffd2389e502c9b8ed417f42ed6c7a') in 0.023542 seconds 
+  Import took 0.027874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.703731 seconds.
+  path: Assets/pekka
+  artifactKey: Guid(65e2af7f0e4189a4da197b9c7be35dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pekka using Guid(65e2af7f0e4189a4da197b9c7be35dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a31f0dd7365856c28a12d2c197098e') in 0.010428 seconds 
+  Import took 0.015392 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
