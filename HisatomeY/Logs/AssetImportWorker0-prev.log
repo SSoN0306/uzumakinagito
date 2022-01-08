@@ -137,3 +137,4 @@ Received Import Request.
 Start importing Assets/minipekka.unity using Guid(8bfe122efca0648ecb2aba2e0bfd1eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bba68ded8454667bd9b0378caf0079') in 0.026087 seconds 
   Import took 0.031042 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
